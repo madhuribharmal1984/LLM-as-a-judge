@@ -20,6 +20,7 @@ defaultTest:
       id: openrouter:openai/gpt-4.1-mini
       config:
         apiBaseUrl: https://openrouter.ai/api/v1
+        apiKey: ${OPENROUTER_API_KEY}
         headers:
           HTTP-Referer: "https://github.com/niti007/LLM-as-a-Judge"
           X-Title: "LLM-as-a-Judge"
@@ -88,6 +89,7 @@ providers:
     id: openrouter:openai/gpt-4.1-mini
     config:
       apiBaseUrl: https://openrouter.ai/api/v1
+      apiKey: ${OPENROUTER_API_KEY}
       temperature: 0
       headers:
         HTTP-Referer: "https://github.com/niti007/LLM-as-a-Judge"
